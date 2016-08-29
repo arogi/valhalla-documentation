@@ -3,7 +3,7 @@ Customizing and building Mapzen Valhalla (running on Docker)
 
 A. Customize your configuration
 
-1. Fork the valhalla.conf repo.
+1. Fork the valhalla/conf repo.
 
 2. Edit valhalla.json with your preferences.
 
