@@ -15,7 +15,7 @@ B. Prepare valhalla-docker repo
 2. Using the GitHub workflow (branch/edit/pull request), edit your local version of Dockerfile. Using a # to comment out the line:
 `# RUN wget https://s3.amazonaws.com/metro-extracts.mapzen.com/trento_italy.osm.pbf`
 
-3. Add the following line soon after the line "ENV TERM xterm": 
+3. Add the following line soon after the line "ENV TERM xterm":  
 `COPY *.pbf /`
 
 4. Point to your own configuration file instead of Mapzen Valhalla's default. Change the line:
@@ -23,9 +23,9 @@ B. Prepare valhalla-docker repo
 	to
     `--branch=master https://github.com/arogi/conf.git`
 
-5. Create a .gitignore file with the following contents:
-`conf  
-*.pbf`
+5. Create a .gitignore file with the following contents:  
+`conf`<br />
+`*.pbf`
 
 5b. Obtain and place your protobuffer data into your repo folder.
 
