@@ -1,12 +1,11 @@
-Customizing and building Mapzen Valhalla (running on Docker)
-
+<b>Roll your own geospatial routing engine!</b>  
+<i>Customize and build Mapzen Valhalla, then deploy with Docker</i>  
 
 A. Customize your configuration
 
 1. Fork the valhalla/conf repo.
 
-2. Edit valhalla.json with your preferences.
-
+2. Edit valhalla.json with your preferences. For example, the standard Valhalla matrix configuration `"sources to targets"`possesses a limit of 50 nodes. You could increases or decrease this.
 
 B. Prepare valhalla-docker repo
 
