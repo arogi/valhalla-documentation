@@ -50,8 +50,8 @@ D. Testing
 1. The following command will run a container with the Valhalla build:
 `docker run -p 8002:8002 arogi/valhalla`
 
-2. Depending on your OS, type:
-Mac/Windows: `http://192.168.99.100:8002`
+2. Depending on your OS, type:  
+Mac/Windows: `http://192.168.99.100:8002`  
 Linux: `localhost:8002`
 
 If successful, Valhalla will respond with a statement such as: `/route /many_to_many /location`
