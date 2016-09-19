@@ -5,7 +5,7 @@ A. Customize your configuration
 
 1. Fork the valhalla/conf repo.
 
-2. Edit valhalla.json with your preferences. For example, the standard Valhalla matrix configuration `"sources to targets"`possesses a limit of 50 nodes. You could increases or decrease this.
+2. Edit valhalla.json with your preferences. For example, the standard Valhalla matrix configuration `"sources to targets"`possesses a default limit of 50 nodes.
 
 B. Prepare valhalla-docker repo
 
@@ -37,8 +37,7 @@ B. Prepare valhalla-docker repo
 
 C. Building
 
-The building process occurs on your local machine, so make sure everything is up-to-date. Preferably, your GitHub and local repo will both be the same.
-The changes you have made will allow you to create a Docker image of Valhalla using your own custom region of interest, with your custom configuration.
+The building process occurs on your local machine. The changes you have made to valhalla.json, Dockerfile, build.sh, and source data will allow you to create a Docker image of Valhalla using your own custom region of interest, with your custom configuration.
 The build command will take a long time to run--varying by amount of input data and your computer's specs. Upon successful completion, you will have a Docker image with the name arogi/valhalla
 
 1. To build, type:
