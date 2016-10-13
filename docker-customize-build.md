@@ -9,7 +9,7 @@ A. Customize your configuration
 
 B. Prepare valhalla-docker repo
 
-1. Fork the valhalla/valhalla-docker repo. Clone onto your local machine.
+1. Fork the valhalla/valhalla-docker repo on GitHub and note the new location of the repo in your account. Clone onto your local machine. Typically, the terminal command to clone would be something like: `git clone yourusername/valhalla-docker`
 
 2. Using the GitHub workflow (branch/edit/pull request), edit your local version of Dockerfile. Using a # to comment out the line:
 `# RUN wget https://s3.amazonaws.com/metro-extracts.mapzen.com/trento_italy.osm.pbf`
