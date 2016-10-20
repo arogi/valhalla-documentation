@@ -26,14 +26,14 @@ B. Prepare valhalla-docker repo
 `conf`<br />
 `*.pbf`
 
-5b. Obtain and place your protobuffer data into your repo folder.
+6. Obtain and place your protobuffer data into your repo folder. One possible source for such data is: https://mapzen.com/data/metro-extracts/
 
-6. Edit build.sh to change the image tag name, from:
+7. Edit build.sh to change the image tag name, from:
   `--tag wouldgo/valhalla \`
 	to
   `--tag arogi/valhalla \`
 
-7. Edit run-valhalla.sh to refer to this new tag (e.g. wouldgo/valhalla to arogi/valhalla).
+8. Edit run-valhalla.sh to refer to this new tag (e.g. wouldgo/valhalla to arogi/valhalla).
 
 C. Building
 
