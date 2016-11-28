@@ -1,3 +1,6 @@
+<i>Note 27 Nov 2016: These instructions were written for Valhalla v1.0, and now must be updated to address Valhalla 2.0.</i>
+<p />
+
 <b>Roll your own geospatial routing engine!</b>  
 <i>Customize and build Mapzen Valhalla, then deploy with Docker</i>  
 
